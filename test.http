@@ -1,0 +1,26 @@
+http://localhost:5000/api/v1/contact
+http://localhost:5000/api/v1/contact/1
+
+POST http://localhost:5000/api/v1/contact
+Content-Type: application/json
+
+{
+    "nombre":"Luzius Perez",
+    "email":"luzius@tucorreo.com",
+    "nace":"2000/10/31",
+    "mensaje":"Tercer Post"
+}
+
+PUT http://localhost:5000/api/v1/contact/5
+Content-Type: application/json
+
+{
+    "id":5,
+    "nombre":"Luzius Amman",
+    "email":"luzius@hexagon.com",
+    "nace":"2009/11/29",
+    "mensaje":"Segundo Post"
+}
+
+DELETE http://localhost:5000/api/v1/contact/6
+Content-Type: application/json
